@@ -1,0 +1,8 @@
+data.zip
+queries.zip
+data/*
+output.zip
+packrat/lib/*
+packrat/lib-R/*
+packrat/lib-ext/*
+packrat/src/*

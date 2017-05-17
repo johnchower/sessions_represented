@@ -1,0 +1,191 @@
+PackratFormat: 1.4
+PackratVersion: 0.4.8.1
+RVersion: 3.3.2
+Repos: CRAN=https://cran.rstudio.com/
+
+Package: BH
+Source: CRAN
+Version: 1.62.0-1
+Hash: 14dfb3e8ffe20996118306ff4de1fab2
+
+Package: DBI
+Source: CRAN
+Version: 0.5-1
+Hash: 375869004db963f9915f2b8a49b4a718
+
+Package: MASS
+Source: CRAN
+Version: 7.3-45
+Hash: 0650d5701aa7e369e77c9e2c8e1dc913
+
+Package: R6
+Source: CRAN
+Version: 2.2.0
+Hash: 712773a3439bd32db5c40938e1a9aac2
+
+Package: RColorBrewer
+Source: CRAN
+Version: 1.1-2
+Hash: c0d56cd15034f395874c870141870c25
+
+Package: RJSONIO
+Source: CRAN
+Version: 1.3-0
+Hash: fb672e20eb6f3010a3639f855d8ef6de
+
+Package: RPostgreSQL
+Source: CRAN
+Version: 0.4-1
+Hash: 42460e37a21dc9e3f1f47c7d8d210592
+Requires: DBI
+
+Package: Rcpp
+Source: github
+Version: 0.12.10.4
+Hash: 94692bd511b7009cab22917604647774
+GithubRepo: Rcpp
+GithubUsername: RcppCore
+GithubRef: master
+GithubSha1: 4e0f79c8651e17438ae88ef52b37139ff1135fc9
+
+Package: assertthat
+Source: CRAN
+Version: 0.1
+Hash: 0afb92b59b02593c70ff8046700ba9d3
+
+Package: backports
+Source: CRAN
+Version: 1.0.5
+Hash: 8b835bdc5447f2c76fda198e17d6bda4
+
+Package: chron
+Source: CRAN
+Version: 2.3-50
+Hash: 86ef5f32dd2ef3c4076e52e7c89740b3
+
+Package: colorspace
+Source: CRAN
+Version: 1.3-2
+Hash: 0bf8618b585fa98eb23414cd3ab95118
+
+Package: dichromat
+Source: CRAN
+Version: 2.0-0
+Hash: 08eed0c80510af29bb15f840ccfe37ce
+
+Package: digest
+Source: CRAN
+Version: 0.6.12
+Hash: e53fb8c58673df868183697e39a6a4d6
+
+Package: dplyr
+Source: CRAN
+Version: 0.5.0
+Hash: b226f103c4f44c419d33059cbc7b7025
+Requires: BH, DBI, R6, Rcpp, assertthat, lazyeval, magrittr, tibble
+
+Package: getopt
+Source: CRAN
+Version: 1.20.0
+Hash: 951e83029bb5f798b53d7b53cbc50be9
+
+Package: ggplot2
+Source: CRAN
+Version: 2.2.1
+Hash: 46e5cb78836848aa44655e577433f54b
+Requires: MASS, digest, gtable, lazyeval, plyr, reshape2, scales,
+    tibble
+
+Package: ggthemes
+Source: CRAN
+Version: 3.4.0
+Hash: e9f85417507c5352fc05de654bb6f1ab
+Requires: assertthat, colorspace, ggplot2, scales
+
+Package: glootility
+Source: github
+Version: 0.0.0.9000
+Hash: 93f22f32eb5a96c148dfd9cb1709859a
+Requires: DBI, RJSONIO, RPostgreSQL, chron, ggplot2, ggthemes
+GithubRepo: glootility
+GithubUsername: johnchower
+GithubRef: master
+GithubSha1: 9f36708e61b5c7725acae891c96251d36be2bca5
+
+Package: gtable
+Source: CRAN
+Version: 0.2.0
+Hash: cd78381a9d3fea966ac39bd0daaf5554
+
+Package: labeling
+Source: CRAN
+Version: 0.3
+Hash: ecf589b42cd284b03a4beb9665482d3e
+
+Package: lazyeval
+Source: CRAN
+Version: 0.2.0
+Hash: 3d6e7608e65bbf5cb170dab1e3c9ed8b
+
+Package: magrittr
+Source: CRAN
+Version: 1.5
+Hash: bdc4d48c3135e8f3b399536ddf160df4
+
+Package: munsell
+Source: CRAN
+Version: 0.4.3
+Hash: f96d896947fcaf9b6d0074002e9f4f9d
+Requires: colorspace
+
+Package: optparse
+Source: CRAN
+Version: 1.3.2
+Hash: 43f92c822f50e22bd4d8408e7ed89651
+Requires: getopt
+
+Package: packrat
+Source: CRAN
+Version: 0.4.8-1
+Hash: 6ad605ba7b4b476d84be6632393f5765
+
+Package: plyr
+Source: CRAN
+Version: 1.8.4
+Hash: a03f8e1e0d584e71c346d14ffcff6efa
+Requires: Rcpp
+
+Package: reshape2
+Source: CRAN
+Version: 1.4.2
+Hash: ee9fcffcf074f627203e395f64e5492b
+Requires: Rcpp, plyr, stringr
+
+Package: rprojroot
+Source: CRAN
+Version: 1.2
+Hash: fdcac51a7f47decd60556ceefc3c26b1
+Requires: backports
+
+Package: scales
+Source: CRAN
+Version: 0.4.1
+Hash: 3f46cf6a066d5e9710e9c07c70f63aca
+Requires: RColorBrewer, Rcpp, dichromat, labeling, munsell, plyr
+
+Package: stringi
+Source: CRAN
+Version: 1.1.5
+Hash: b6308e49357a0b475f433599e0d8b5eb
+
+Package: stringr
+Source: CRAN
+Version: 1.2.0
+Hash: 25a86d7f410513ebb7c0bc6a5e16bdc3
+Requires: magrittr, stringi
+
+Package: tibble
+Source: CRAN
+Version: 1.3.0
+Hash: b93bb21f09a1d63725b0b3d0b0b04300
+Requires: Rcpp, lazyeval
